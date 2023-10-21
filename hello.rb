@@ -2,4 +2,8 @@ print 'Digite seu nome: '
 
 name = gets.chomp
 
-puts "hello #{name}! sz"
+print 'Digite seu sobrenome: '
+
+lastName = gets.chomp
+
+puts "hello #{name} #{lastName}! sz"

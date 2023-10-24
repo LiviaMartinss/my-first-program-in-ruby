@@ -26,4 +26,6 @@ divisao = numberOne / numberTwo
 
 multiplicacao = numberOne * numberTwo
 
-puts "prontinhoo, aqui a sua soma #{soma}, subtração #{subtracao}, divisão #{divisao} e multiplicação #{multiplicacao}"
+resto = numberOne % numberTwo
+
+puts "prontinhoo, aqui a sua soma #{soma}, subtração #{subtracao}, divisão #{divisao} e multiplicação #{multiplicacao} e resto #{resto}"
